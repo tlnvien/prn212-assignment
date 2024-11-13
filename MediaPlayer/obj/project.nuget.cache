@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "cYSkLGaJHUI=",
+  "success": true,
+  "projectFilePath": "D:\\PRN_Assignment\\MediaPlayer\\MediaPlayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\ffmpeg.autogen\\7.0.0\\ffmpeg.autogen.7.0.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\syncfusion.compression.net.core\\27.1.58\\syncfusion.compression.net.core.27.1.58.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\syncfusion.licensing\\27.1.58\\syncfusion.licensing.27.1.58.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\syncfusion.officechart.net.core\\27.1.58\\syncfusion.officechart.net.core.27.1.58.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\syncfusion.presentation.net.core\\27.1.58\\syncfusion.presentation.net.core.27.1.58.nupkg.sha512"
+  ],
+  "logs": []
+}

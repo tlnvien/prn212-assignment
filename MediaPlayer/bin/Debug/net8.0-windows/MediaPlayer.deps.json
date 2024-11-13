@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MediaPlayer/1.0.0": {
+        "dependencies": {
+          "FFmpeg.AutoGen": "7.0.0",
+          "Syncfusion.Presentation.Net.Core": "27.1.58"
+        },
+        "runtime": {
+          "MediaPlayer.dll": {}
+        }
+      },
+      "FFmpeg.AutoGen/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Syncfusion.Compression.Net.Core/27.1.58": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "27.1.58.0",
+            "fileVersion": "27.1.58.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/27.1.58": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "27.1.58.0",
+            "fileVersion": "27.1.58.0"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core/27.1.58": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "27.1.58"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.OfficeChart.Portable.dll": {
+            "assemblyVersion": "27.1.58.0",
+            "fileVersion": "27.1.58.0"
+          }
+        }
+      },
+      "Syncfusion.Presentation.Net.Core/27.1.58": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "27.1.58",
+          "Syncfusion.Licensing": "27.1.58",
+          "Syncfusion.OfficeChart.Net.Core": "27.1.58"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Presentation.Portable.dll": {
+            "assemblyVersion": "27.1.58.0",
+            "fileVersion": "27.1.58.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediaPlayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FFmpeg.AutoGen/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RzSgOmHWzEpYzA3zl2Ac3iOdkk1ZCDgJBlRjHBIlaXHJg9aWEmPCzo0qDgEESZDNA7RaD2g4xn7yrKvT1q0Paw==",
+      "path": "ffmpeg.autogen/7.0.0",
+      "hashPath": "ffmpeg.autogen.7.0.0.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Net.Core/27.1.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7509E2HgSXC3Dqrl0gIXwCOIeURDowTkpx1EyTnDwm099fJe3Jem5/ox3JJD+7ctkGEY6tFsDF0iiMHPUupXKQ==",
+      "path": "syncfusion.compression.net.core/27.1.58",
+      "hashPath": "syncfusion.compression.net.core.27.1.58.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/27.1.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/L0Htf3W2dKw+Uh5wGnYVkHJJuAFAWhmgYZ4w4mY9KGEA9GzHwhqqTra7s4i75oC3P0sYykVRIzOoWUCAmkVBg==",
+      "path": "syncfusion.licensing/27.1.58",
+      "hashPath": "syncfusion.licensing.27.1.58.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Net.Core/27.1.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cWkM/yPDMZYwcK2pxzvQtlu0KOb3pGyJQnDIQxPEDIDoT6gwlWlrEx87UsvSvk6dZauIkHus5lUAXoNYb/uWBw==",
+      "path": "syncfusion.officechart.net.core/27.1.58",
+      "hashPath": "syncfusion.officechart.net.core.27.1.58.nupkg.sha512"
+    },
+    "Syncfusion.Presentation.Net.Core/27.1.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3mhSSGBqClTGH/CuBRGeXQ4i/F9/foYgyl/l+9dZE9id4PL0emHaeEGe6sZ8BBn3kDXzKivSRckOpZwfkqJ/Iw==",
+      "path": "syncfusion.presentation.net.core/27.1.58",
+      "hashPath": "syncfusion.presentation.net.core.27.1.58.nupkg.sha512"
+    }
+  }
+}
